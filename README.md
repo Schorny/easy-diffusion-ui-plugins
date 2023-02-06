@@ -11,3 +11,6 @@ if you hover over an image and double click the seed info, the seed will be copi
 
 #### rename_session ####
 this allows you to rename the current session and change the output folder name for the created images
+
+#### autoscroll_rename ####
+this changes the text from "Scroll to generated images" which is pretty long to "autoscroll" to save space
