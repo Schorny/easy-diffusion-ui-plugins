@@ -10,7 +10,8 @@
     "use strict"
     function askSessionId() {
 		var text = prompt('Enter new Session name', sessionId);
-		sessionId = text;
+		if(text)
+			sessionId = text;
 	}
 
 	$('#editor-inputs-prompt').prepend(
